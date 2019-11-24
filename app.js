@@ -1,1 +1,0 @@
-console.log('mom im on tv lol');

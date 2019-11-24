@@ -1,5 +1,5 @@
-const triggers = document.querySelectorAll('.cool > li');
-const background = document.querySelector('.dropdownBackground');
+const triggers = document.querySelectorAll('.wrapper > li');
+const background = document.querySelector('.dropdown-background');
 const nav = document.querySelector('.top');
 
 function handleEnter() {

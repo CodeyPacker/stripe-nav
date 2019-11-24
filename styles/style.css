@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *,
@@ -17,18 +17,13 @@ body {
   );
 }
 
-h2 {
-  margin-top: 0;
-  padding-top: 0.8em;
-}
-
 nav {
   position: relative;
   perspective: 600px;
 }
 
-.cool > li > a {
-  color: yellow;
+.wrapper > li > a {
+  color: white;
   text-decoration: none;
   font-size: 20px;
   background: rgba(0, 0, 0, 0.2);
@@ -46,7 +41,7 @@ nav ul {
   justify-content: center;
 }
 
-.cool > li {
+.wrapper > li {
   position: relative;
   display: flex;
   justify-content: center;
@@ -68,7 +63,7 @@ nav ul {
 .trigger-enter .dropdown { display: block; }
 .trigger-enter-active .dropdown { opacity: 1; }
 
-.dropdownBackground {
+.dropdown-background {
   width: 100px;
   height: 100px;
   position: absolute;
@@ -83,7 +78,7 @@ nav ul {
   opacity: 0;
 }
 
-.dropdownBackground.open { opacity: 1; }
+.dropdown-background.open { opacity: 1; }
 
 .arrow {
   position: absolute;
